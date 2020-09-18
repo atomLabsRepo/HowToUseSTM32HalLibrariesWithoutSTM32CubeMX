@@ -21,7 +21,7 @@ via UART and prints data in Arduino Serial Monitor
 3) Uploading cables for both boards
 4) Some jumper wires
 
-### Note: My STM32F407VGT6 contains an in-built debugger, you might need a debugger/programmer for your board
+##### Note: My STM32F407VGT6 contains an in-built debugger, you might need a debugger/programmer for your board
 
 ## What's the IDE?
 
