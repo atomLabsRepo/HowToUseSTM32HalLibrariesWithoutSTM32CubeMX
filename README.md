@@ -1,0 +1,1 @@
+# HowToUseSTM32HalLibrariesWithoutSTM32CubeMX
