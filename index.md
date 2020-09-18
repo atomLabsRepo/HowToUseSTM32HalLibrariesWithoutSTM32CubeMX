@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Atomax Labs
 
 You can use the [editor on GitHub](https://github.com/atomaxLabs/HowToUseSTM32HalLibrariesWithoutSTM32CubeMX/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
