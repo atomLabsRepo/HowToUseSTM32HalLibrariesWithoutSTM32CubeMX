@@ -28,3 +28,17 @@ via UART and prints data in Arduino Serial Monitor
 Mainly eclipse based IDEs, for simplicity I'll be using STM32CubeIDE
 
 ### So let's start...
+
+#### 1) Make a project in STM32CubeIDE
+
+-> Enter your workspace and go to File > New > STM32 Project.
+-> Select your controller, I'll be going for Board > STM32F4 Discovery Kit
+-> Give project name, Targeted Language > C, Targeted Binary Type > Executable, Targeted Project Type > Empty
+
+Now, a project is made with basic initializations
+
+#### 2) Insert Drivers
+
+-> Download your STM32 drivers from ST's website, it'll come in a zip package, extract it.
+-> Now add a Source Folder to your project: Right Click on your Project > New > Source Folder.
+   I repeat!!!!, a new SOURCE FOLDER not a simple folder. 
