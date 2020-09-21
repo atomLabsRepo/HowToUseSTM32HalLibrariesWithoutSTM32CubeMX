@@ -68,4 +68,10 @@ Now, a project is made with basic initializations
 #### 4) Adding some supporting files to the project
 
 -> Go to your Project Folder > Drivers > STM32F4xx_HAL_Drivers > Inc > cut the file stm32f4xx_hal_conf_template.h
-   and paste it in project folder > Inc > and rename as stm32f4xx_hal_conf.h
+   and paste it in project folder > Inc > and rename as stm32f4xx_hal_conf.h, also create main.h and it.h in same Inc folder.
+   
+-> Also find a "system_stm32f4xx.c" file in your downloaded drivers and copy it in Project Folder > Src
+   Create a it.c (for interrupt handling) and msp.c (for micrcontroller specific programming).
+   
+#### 5) Let's have some configurations
+
