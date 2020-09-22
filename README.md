@@ -68,7 +68,7 @@ Now, a project is made with basic initializations
    -> Inside it, create 2 folders named Device and Include
    -> Now go to Downloaded drivers folder > CMSIS > Device > ST > STM32F4xx(see as per ur board) > Include and
       copy these files "stm32f407xx.h"(controller specific file), "stm32f4xx.h"(F4 specific file), 
-	  "system_stm32f4xx.h"(system F4 specific file)and paste to ur project > Drivers > CMSIS > Device folder.
+	  "system_stm32f4xx.h"(system F4 specific file) and paste to ur project > Drivers > CMSIS > Device folder.
    -> From downloaded, inside CMSIS > Include copy all the files and paste to your CMSIS > Include
       The file "core_cm4.h" stands for Cortex M4 so I can delete some files of cm0 0plus, 1,2,3,7 etc.
    
@@ -95,13 +95,13 @@ Now, a project is made with basic initializations
    
 -> With above step all the available drivers have been enabled, lets optimise it by disabling those not in use.
    Go to Project Folder > Inc > stm32f4xx_hal_conf.h, comment all the drivers not in use.
-   For that just leave these defines HAL_MODULE_ENABLED -> for HAL library functions, 
-                                     HAL_GPIO_MODULE_ENABLED -> Gpios driver, 
-									 HAL_RCC_MODULE_ENABLED -> enabling clock functions, 
-									 HAL_UART_MODULE_ENABLED -> Uart driver
-									 HAL_CORTEX_MODULE_ENABLED -> for some NVIC functionalities
-									 HAL_DMA_MODULE_ENABLED -> for DMA modules
-									 HAL_FLASH_MODULE_ENABLED -> for Flash functions in RCC module
+   For that just leave these defines HAL_MODULE_ENABLED -> for HAL library functions,
+                                     HAL_GPIO_MODULE_ENABLED -> Gpios driver,
+				     HAL_RCC_MODULE_ENABLED -> enabling clock functions, 
+				     HAL_UART_MODULE_ENABLED -> Uart driver
+				     HAL_CORTEX_MODULE_ENABLED -> for some NVIC functionalities
+				     HAL_DMA_MODULE_ENABLED -> for DMA modules
+				     HAL_FLASH_MODULE_ENABLED -> for Flash functions in RCC module
    Rest all can be commented, this is just to optimise our project and can also be done via Compiler flags 
    like we did for using this "USE_HAL_DRIVER".
    
@@ -110,13 +110,13 @@ Now, a project is made with basic initializations
 -> In IDE, right click on project name > Properties > C/C++ Build > Settings > Tool Settings > MCU GCC Compiler > Include Paths
     Click on Add and paste these one by one.
 	${workspace_loc:/${ProjName}/Drivers/CMSIS/Device}
-    ${workspace_loc:/${ProjName}/Drivers/CMSIS/Include}
-    ${workspace_loc:/${ProjName}/Drivers/STM32F4xx_HAL_Driver/Inc}
+        ${workspace_loc:/${ProjName}/Drivers/CMSIS/Include}
+        ${workspace_loc:/${ProjName}/Drivers/STM32F4xx_HAL_Driver/Inc}
 	
 	Apply and close.
 	
-	Note: workspace_loc -> Local Workspace
-          ProjName -> Current working project, don't get confused with these tag names.
+Note: workspace_loc -> Local Workspace
+      ProjName -> Current working project, don't get confused with these tag names.
 
 -> Go to Project Folder > Drivers > STM32F4xx_HAL_Driver > Src > Select all the template.c files and exclude them from build.
 
