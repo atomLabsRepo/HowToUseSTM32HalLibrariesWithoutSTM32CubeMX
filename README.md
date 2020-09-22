@@ -91,9 +91,9 @@ For that just leave these defines
     - ${workspace_loc:/${ProjName}/Drivers/STM32F4xx_HAL_Driver/Inc}
 	Apply and close.
 	
-**Note:
-- ** **workspace_loc** -> Local Workspace, 
-- **ProjName** -> Current working project, 
+**Note**:
+ - **workspace_loc** -> Local Workspace, 
+ - **ProjName** -> Current working project, 
   don't get confused with these tag names.
 
 * Go to Project Folder > Drivers > STM32F4xx_HAL_Driver > Src > Select all the template.c files and exclude them from build.
