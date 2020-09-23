@@ -118,4 +118,5 @@ For that just leave these defines
 * Reset both the boards, you will see your desired input string in Arduino Serial Monitor.
 
 
-Yeap, a big thanks for making this long, don't worry for any problems you face with your controllers just DM me on Insta @atom_labs
+Yeap, a big thanks for making this long, don't worry for any problems you face with your controllers 
+just DM me on Insta [atom_labs](https://www.instagram.com/atom_labs/) or mail at atomaxlabs@gmail.com
