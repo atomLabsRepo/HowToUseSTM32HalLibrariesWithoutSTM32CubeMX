@@ -79,7 +79,8 @@ For that just leave these defines
    - **HAL_UART_MODULE_ENABLED** -> Uart driver,
    - **HAL_CORTEX_MODULE_ENABLED** -> for some NVIC functionalities,
    - **HAL_DMA_MODULE_ENABLED** -> for DMA modules,
-   - **HAL_FLASH_MODULE_ENABLED** -> for Flash functions in RCC module
+   - **HAL_FLASH_MODULE_ENABLED** -> for Flash functions in RCC module,
+   
    Rest all can be commented, this is just to optimise our project and can also be done via Compiler flags like we did for using this **USE_HAL_DRIVER**.
    
 #### 6) Let's make this initial project build
