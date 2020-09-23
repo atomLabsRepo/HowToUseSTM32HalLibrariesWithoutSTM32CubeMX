@@ -119,6 +119,7 @@ For that just leave these defines
 * Open Serial Monitor in Arduino IDE, and select Baud Rate as 115200.
 
 * Reset both the boards, you will see your desired input string in Arduino Serial Monitor.
+![Working Demo](https://github.com/atomLabsRepo/HowToUseSTM32HalLibrariesWithoutSTM32CubeMX/blob/remote/origin/master/Images/WorkingDemo.png)
 
 
 Yeap, a big thanks for making this long, don't worry for any problems you face with your controllers 
