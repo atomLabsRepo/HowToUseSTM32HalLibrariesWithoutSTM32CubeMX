@@ -100,6 +100,8 @@ For that just leave these defines
 * Go to Project Folder > Drivers > STM32F4xx_HAL_Driver > Src > Select all the template.c files and exclude them from build.
 * Go to main.c, remove the FPU warning #if.
 * Build the project, there should be no errors or warnings.
+* Your project explorer in IDE must look something like this..
+![ProjectExplorer](https://github.com/atomLabsRepo/HowToUseSTM32HalLibrariesWithoutSTM32CubeMX/blob/remote/origin/master/Images/ProjectExplorer.png)
 
 #### 7) Now let's have some code
 
