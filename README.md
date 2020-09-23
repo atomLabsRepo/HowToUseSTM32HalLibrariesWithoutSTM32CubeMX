@@ -1,6 +1,6 @@
 # How to use STM32 Hal Libraries without STM32CubeMX
 
-## A tutorial by Atomax Labs
+## A tutorial by Atom Labs
 
 In this tutorial, we will learn how to use STM32 HAL Libraries without auto-generating code from CubeMX software.
 
@@ -99,3 +99,23 @@ For that just leave these defines
 * Go to Project Folder > Drivers > STM32F4xx_HAL_Driver > Src > Select all the template.c files and exclude them from build.
 * Go to main.c, remove the FPU warning #if.
 * Build the project, there should be no errors or warnings.
+
+#### 7) Now let's have some code
+
+* I'll make it short this time, copy the contents of these files from the project repository of ***main.c, main.h, it.c, it.h, msp.c***
+  your respective files.
+  
+  Don't worry, I've mentioned the comments in code to make it worth readable.
+  
+* Now, build the whole project and program the board.
+
+* Flash the Arduino board with the file ***ArduinoUartRx.ino*** in the repository.
+
+* Connect the wires as mentioned the code.
+
+* Open Serial Monitor in Arduino IDE, and select Baud Rate as 115200.
+
+* Reset both the boards, you will see your desired input string in Arduino Serial Monitor.
+
+
+Yeap, a big thanks for making this long, don't worry for any problems you face with your controllers just DM me on Insta @atom_labs
